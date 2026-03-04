@@ -1,0 +1,62 @@
+body{
+    display: flex;
+}
+
+/* ЛЕВАЯ ПАНЕЛЬ */
+.left-panel{
+    background-color: rgb(196, 196, 196);
+    border: 1px solid black;
+    width: 40%;
+    height: 100vh;
+    padding: 2% 2%;
+}
+
+.info-block
+{
+    margin-top: 20px;
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        margin: 0 0;
+    }
+    span{
+        margin-top: 10px;
+        color: brown;
+    }
+}
+.info-block.type-b
+{
+    text-align: center;
+    font-size: larger;
+}
+
+.title-box{
+    border: 2px solid rgba(0,0,0,0.5);
+    padding: 4px 16px;
+}
+
+/* ГОРИЗОНТАЛЬНЫЕ ЛИНИИ */
+.hor-line
+{
+    display: block;
+    margin: 4% 0;
+    border-bottom: 3px solid black;
+} 
+.hor-line.brown
+{
+    border-bottom: 6px solid rgb(138, 110, 79);
+    width: 30%;
+}
+
+/* ПРАВАЯ ПАНЕЛЬ */
+.right-panel{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 20px;
+    .title-box{
+        margin-bottom: 10px;
+    }
+}
